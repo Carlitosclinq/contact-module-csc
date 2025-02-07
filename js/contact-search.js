@@ -41,7 +41,74 @@ const ContactSearch = () => {
             coveredAreas: [
                 { zip: '7500', name: { fr: 'Tournai', nl: 'Doornik' } },
                 { zip: '7501', name: { fr: 'Orcq', nl: 'Orcq' } },
-                { zip: '7502', name: { fr: 'Esplechin', nl: 'Esplechin' } }
+                { zip: '7502', name: { fr: 'Esplechin', nl: 'Esplechin' } },
+                { zip: '7503', name: { fr: 'Froyennes', nl: 'Froyennes' } },
+                { zip: '7504', name: { fr: 'Froidmont', nl: 'Froidmont' } },
+                { zip: '7506', name: { fr: 'Willemeau', nl: 'Willemeau' } },
+                { zip: '7520', name: { fr: 'Templeuve', nl: 'Templeuve' } },
+                { zip: '7521', name: { fr: 'Tournai', nl: 'Doornik' } },
+                { zip: '7522', name: { fr: 'Lamain', nl: 'Lamain' } },
+                { zip: '7530', name: { fr: 'Gaurain-Ramecroix', nl: 'Gaurain-Ramecroix' } },
+                { zip: '7531', name: { fr: 'Havinnes', nl: 'Havinnes' } },
+                { zip: '7532', name: { fr: 'Beclers', nl: 'Beclers' } },
+                { zip: '7533', name: { fr: 'Thimougies', nl: 'Thimougies' } },
+                { zip: '7534', name: { fr: 'Barry', nl: 'Barry' } },
+                { zip: '7536', name: { fr: 'Vaulx', nl: 'Vaulx' } },
+                { zip: '7538', name: { fr: 'Vezon', nl: 'Vezon' } },
+                { zip: '7540', name: { fr: 'Kain', nl: 'Kain' } }
+            ]
+        },
+        {
+            id: 'kortrijk',
+            name: {
+                fr: 'CSC Courtrai',
+                nl: 'ACV Kortrijk'
+            },
+            address: 'President Kennedypark 16D',
+            zip: '8500',
+            city: {
+                fr: 'Courtrai',
+                nl: 'Kortrijk'
+            },
+            phone: '051 23 58 00',
+            phoneHours: {
+                fr: 'Du lundi au jeudi de 8h30 à 17h00, vendredi de 8h30 à 12h00',
+                nl: 'Maandag tot donderdag van 8u30 tot 17u00, vrijdag van 8u30 tot 12u00'
+            },
+            openingHours: {
+                fr: [
+                    { day: 'Lundi', hours: '8h45 - 12h00, 14h00 - 16h45' },
+                    { day: 'Mardi', hours: '8h45 - 11h45' },
+                    { day: 'Mercredi', hours: 'Fermé' },
+                    { day: 'Jeudi', hours: '14h00 - 17h30' },
+                    { day: 'Vendredi', hours: '8h45 - 11h45' }
+                ],
+                nl: [
+                    { day: 'Maandag', hours: '8u45 - 12u00, 14u00 - 16u45' },
+                    { day: 'Dinsdag', hours: '8u45 - 11u45' },
+                    { day: 'Woensdag', hours: 'Gesloten' },
+                    { day: 'Donderdag', hours: '14u00 - 17u30' },
+                    { day: 'Vrijdag', hours: '8u45 - 11u45' }
+                ]
+            },
+            appointmentOnly: false,
+            coveredAreas: [
+                { zip: '8500', name: { fr: 'Courtrai', nl: 'Kortrijk' } },
+                { zip: '8501', name: { fr: 'Heule', nl: 'Heule' } },
+                { zip: '8510', name: { fr: 'Marke', nl: 'Marke' } },
+                { zip: '8511', name: { fr: 'Aalbeke', nl: 'Aalbeke' } },
+                { zip: '8520', name: { fr: 'Kuurne', nl: 'Kuurne' } },
+                { zip: '8530', name: { fr: 'Harelbeke', nl: 'Harelbeke' } },
+                { zip: '8531', name: { fr: 'Bavikhove', nl: 'Bavikhove' } },
+                { zip: '8540', name: { fr: 'Deerlijk', nl: 'Deerlijk' } },
+                { zip: '8550', name: { fr: 'Zwevegem', nl: 'Zwevegem' } },
+                { zip: '8551', name: { fr: 'Heestert', nl: 'Heestert' } },
+                { zip: '8552', name: { fr: 'Moen', nl: 'Moen' } },
+                { zip: '8553', name: { fr: 'Otegem', nl: 'Otegem' } },
+                { zip: '8554', name: { fr: 'Sint-Denijs', nl: 'Sint-Denijs' } },
+                { zip: '8560', name: { fr: 'Wevelgem', nl: 'Wevelgem' } },
+                { zip: '8570', name: { fr: 'Anzegem', nl: 'Anzegem' } },
+                { zip: '8580', name: { fr: 'Avelgem', nl: 'Avelgem' } }
             ]
         }
     ];
